@@ -1,0 +1,16 @@
+# Build output (includes target/demo-frames)
+target/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.metadata/
+
+# Claude Code worktrees
+.claude/worktrees/
+
+.DS_Store
