@@ -4,7 +4,7 @@ A **JavaFX** desktop app that generates fractals and wraps them as a texture on 
 
 ![Deep zoom into the Mandelbrot set](docs/media/deep-zoom.gif)
 
-> School project, DUT Informatique, University of Bordeaux (2017), by Laurent Genty and Luis Palluel. Revived in 2026: Maven build, modern JavaFX, new fractals, smooth coloring and parallel rendering.
+> By Laurent Genty and Luis Palluel.
 
 ## Gallery
 
@@ -29,7 +29,7 @@ Videos: [deep zoom](docs/media/deep-zoom.mp4) · [Julia morph](docs/media/julia-
 ## Features
 
 - Six fractals: **Mandelbrot**, **Julia**, **Burning Ship**, **Newton (z³ − 1)**, **Lévy C curve** and a recursive **square** fractal.
-- Smooth coloring (no color bands) and four palettes: Classic (2017), Fire, Ocean, Neon.
+- Smooth coloring (no color bands) and four palettes: Classic, Fire, Ocean, Neon.
 - Configurable parameters (iterations, Julia constant) with input validation.
 - Fractal rendered as a texture on a 3D sphere, rotatable with the mouse.
 - Parallel rendering on all CPU cores.
@@ -52,7 +52,7 @@ scripts/make-media.sh
 
 ## Architecture
 
-Classic **MVC** from 2017, plus a pure-Java rendering core added in 2026:
+Classic **MVC**, plus a pure-Java rendering core with no JavaFX dependency:
 
 ```
 src/main/java/
